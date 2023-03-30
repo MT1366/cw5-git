@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+}
+/* به دو بخش اَساید(طول 20%) و مَین(طول 80%) تقسیم شده */
+aside {
+  width: 20%;
+  height: 100%;
+}
+
+.upper {
+  background-color: rgb(29, 29, 29);
+  padding-left: 15px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-size: large;
+  color: aliceblue;
+}
+
+.mainAside {
+  background-color: whitesmoke;
+  padding-bottom: 5rem;
+}
+
+.homeDashboard {
+  display: flex;
+  padding-top: 1em;
+  padding-left: 0.5em;
+  align-items: center;
+  gap: 7px;
+  color: rgb(7, 79, 79);
+  font-weight: bold;
+}
+
+.menus {
+  display: flex;
+  padding-top: 1em;
+  padding-left: 0.5em;
+  align-items: center;
+  gap: 7px;
+  font-weight: bold;
+}
+
+.AsideFooter {
+  margin-top: 3.5rem;
+}
+
+.footerUpSide {
+  display: flex;
+  margin: 0 0.5em;
+  font-weight: bold;
+  gap: 5em;
+}
+
+.savedReports {
+  display: flex;
+  align-items: center;
+  margin-top: 1.5em;
+  margin-left: 0.5em;
+  gap: 7px;
+}
+
+main {
+  width: 80%;
+  height: 100%;
+}
