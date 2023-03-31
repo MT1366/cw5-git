@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* HEADER Section */
+
+.header {
+  display: grid;
+  grid-template-columns: 200px 1260px 800px;
+  background-color: #555;
+  color: white;
+  align-items: center;
+  /* padding: 10px 0; */
+}
+
+h4 {
+  padding: 10px 15px;
+}
+
+.search {
+  background-color: #777;
+  padding: 10px 15px;
+}
+
+.sign-btn {
+  padding: 10px;
+}
