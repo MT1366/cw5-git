@@ -8,7 +8,7 @@
 
 .header {
   display: grid;
-  grid-template-columns: 200px 1260px 800px;
+  grid-template-columns: 200px 1060px 1fr;
   background-color: #555;
   color: white;
   align-items: center;
@@ -22,15 +22,18 @@ h4 {
 .search {
   background-color: #777;
   padding: 10px 15px;
+  grid-column: 2 / 4;
 }
 
 .sign-btn {
   padding: 10px;
+  grid-column: 4 / -1;
 }
 
 aside {
-  background-color: darkgray;
-  width: 200px;
+  background-color: rgb(236, 231, 231);
+  width: 223px;
+  border-right: 1px solid grey;
 }
 
 .menus {
@@ -39,3 +42,51 @@ aside {
   padding: 0.7rem;
   gap: 7px;
 }
+
+/* Tables HEADER */
+
+.main-content-container {
+  display: flex;
+}
+
+.table-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  padding: 2rem;
+}
+
+.table-header-btn-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 5px;
+}
+
+.share-export-btn {
+  display: flex;
+  justify-content: space-between;
+  height: 5%;
+  margin: 5px;
+}
+
+.share-export-btn p {
+  /* margin-left: 1rem; */
+  padding: 0 5px;
+  border: 1px solid black;
+}
+
+.calendar-btn {
+  display: flex;
+  margin: 5px;
+  height: 5%;
+  padding: 0 5px;
+  border: 1px solid black;
+}
+
+/* .share-export-btn:nth-child(odd) {
+  border-left: 1px solid black;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  /* border-radius: 5px; */
+/* }  */
