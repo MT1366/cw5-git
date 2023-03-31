@@ -49,12 +49,20 @@ aside {
   display: flex;
 }
 
+.table--header {
+  width: 100%;
+}
+
 .table-header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   width: 100%;
   padding: 2rem;
+  /* background-color: aquamarine; */
+  border-bottom: 1px solid #777;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 .table-header-btn-container {
@@ -90,3 +98,19 @@ aside {
   border-bottom: 1px solid black;
   /* border-radius: 5px; */
 /* }  */
+
+table {
+  margin-left: 1rem;
+}
+
+td {
+  padding: 0.5rem;
+}
+
+tr {
+  padding: 2rem;
+}
+
+tr:nth-child(even) {
+  background-color: #898888;
+}
