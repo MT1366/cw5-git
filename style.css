@@ -10,7 +10,7 @@
 /* به دو بخش اَساید(طول 20%) و مَین(طول 80%) تقسیم شده */
 aside {
   width: 20%;
-  height: 100%;
+  /* height: 100%; */
 }
 
 .upper {
@@ -52,9 +52,9 @@ aside {
 
 .footerUpSide {
   display: flex;
-  margin: 0 0.5em;
+  justify-content: space-between;
   font-weight: bold;
-  gap: 5em;
+  padding: 0rem 1rem;
 }
 
 .savedReports {
@@ -65,7 +65,9 @@ aside {
   gap: 7px;
 }
 
-main {
-  width: 80%;
-  height: 100%;
+/* HEADER  Section*/
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
